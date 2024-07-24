@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+.container {
+  font-family: "Times New Roman", Times, serif;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 20px;
+  background-color: #5585b5;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #344f6b;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.custom-select {
+  width: 100%;
+}
+
+button.btn.btn-primary {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button.btn.btn-primary:hover {
+  background-color: #0056b3;
+}
